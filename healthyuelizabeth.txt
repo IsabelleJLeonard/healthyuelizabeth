@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HealthyU</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./296941310_10160406611327272_4431210532088190587_n.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- side screen -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-medium"><span class="w3-hide-small">Welcome to Healthy U,</span> I'm Elizabeth Matthews.</h1>
+    <p>Healthy U Certified Coach</p>
+    <img src="./296941310_10160406611327272_4431210532088190587_n.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Who Am I?</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+      My name is Elizabeth Matthews. I live in Minnesota for whole of my life. I have a husband, a daughter, five grandchildren, and two cats. I work at Post office for many years. Now, I am a certified healthy u coach! I was introduced
+      to Healthy U in 2021. I was skeptical because I have tried several weight loss programs. I always gain the weight back or they were not successful. I waited for a bit more before I make a huge decision. It was a best decision ever.
+      I joined Healthy U program on October 2021. I learned so much about the program. I remembered that I said "yes this is for me because it taught me how to eat better instead depend on pills, shake, or any packets." I lost over 
+      60 pounds within 8-9 months. I feel happier where I am at now. I thought I can try help others who want to change the lifestyle permeantly. Feel free to contact me for more further information on this! I will be happy to schedule a 
+      phone call or zoom conference to go into more details about Healthy U program. 
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Customers</h3>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        customers
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1+</span><br>
+        Customer became a coach
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Testimonials</h3>  
+    <img src="" alt="" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Isabelle Matthews.</span> Happy Customer</p>
+    <p>Elizabeth helped me so much. I was able to lost 30 lbs. I would not be able to do it without
+      her support. She was so patient with me, through my difficult times or when I get off the track. 
+      She was able to help me to go back on the track. I would recommend her 100 percent.</p><br>
+  
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="./282053079_10160278046332272_1323036632349517764_n.jpg" style="width:100%">
+        <img src="./296941310_10160406611327272_4431210532088190587_n.jpg" style="width:100%">
+      </div>
+      <div class="w3-half">  
+        <img src="./298150345_10160413899322272_8026882307465861459_n.jpg" style="width:100%">
+        <img src="./305229078_10160465012122272_2610961170765282230_n.jpg" style="width:100%">
+      </div>
+
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 651-964-1392</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: sody98@yahoo.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
